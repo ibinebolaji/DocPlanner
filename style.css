@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+
+/* Leadsection */
+.leadsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 8rem;
+}
+#headerp{
+  color: rgb(0, 179, 155);
+  font-size: 30px;
+  font-weight: lighter;
+}
+.leadsection .twoparagraphs{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* width */
+  grid-template-rows: auto auto auto; /* height */
+  gap: 10px;
+  width: 65%;
+  margin: 0 auto;
+}
+
+
+/* Forsection */
+.for1 {
+    background-color: #00ccb1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 345px;
+  }
+  .for2 {
+    background-color: #3d83df;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 345px;
+  }
+  .for3 {
+    background-color: #1b2734;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 345px;
+  }
+.forsection{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 1.375em 1.25em 0;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 3.75rem auto 2.5rem;
+    color: #fff;
+    font-family: work Sans, Arial, sans-serif;
+    max-width: 1015px;
+    padding: 0 20px;
+    position: relative;
+}
+.for1 select{
+    background-color: #00ccb1;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-style: normal;
+}
+.for2 select{
+    background-color: #3d83df;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-style: normal;
+}
+.for3 select{
+    background-color: #1b2734;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-style: normal;
+}
+.for1 #for1title,
+.for2 #for2title,
+.for3 #for3title {
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: 0.3em 0;
+    font-family: work Sans, Arial, sans-serif;
+}
+.forsection img {
+    width: 50px;
+    height: auto;
+}
